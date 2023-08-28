@@ -105,6 +105,9 @@ public class Main {
         drinkMenu.add(water);
         drinkMenu.add(soda);
         drinkMenu.add(milk);
+
+        System.out.println(drinkMenu);
+        new Order(cupcakeMenu, drinkMenu);
     }
 }
 
